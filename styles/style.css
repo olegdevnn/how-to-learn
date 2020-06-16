@@ -17,8 +17,8 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   display: flex;
-  background-color: #f2f2f2;
   position: relative;
+  background-color: #f2f2f2;
 }
 
 .logo_place_header {
@@ -54,11 +54,15 @@
   color: #2f80ed;
 }
 
-.header__main-illustraion {
+.header__main-illustration {
+  display: flex;
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 20;
+}
+
+.header__main-illustration-img {
   width: 765px;
   height: 608px;
 }
@@ -340,10 +344,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .footer__column-links {
-  margin: 20px 0 16px 0;
+  margin: 0 0 16px 0;
   list-style: none;
   padding: 0;
   color: #fff;
@@ -363,33 +368,19 @@
   font-weight: normal;
 }
 
-.footer_column-social {
-  margin: 20px 0 16px 0;
-  padding: 0;
-  list-style: none;
+.footer__column-social {
+  margin: 0 0 16px 0;
+}
+
+.footer__social-link {
+  text-decoration: none;
+  color: #fff;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
 }
-
 .footer__social-icon {
+  margin-right: 10px;
   width: 16px;
   height: 16px;
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer__social-icon_site_vk::before {
-  content: url('../images/vk_color_white.svg');
-  margin-right: 10px;
-}
-
-.footer__social-icon_site_facebook::before {
-  content: url('../images/facebook_color_white.svg');
-  margin-right: 10px;
-}
-
-.footer__social-icon_site_instagram::before {
-  content: url('../images/instagram_color_white.svg');
-  margin-right: 10px;
 }
