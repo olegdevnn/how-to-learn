@@ -59,9 +59,6 @@
   right: 0;
   bottom: 0;
   z-index: 20;
-}
-
-.header__main-illustraion-img {
   width: 765px;
   height: 608px;
 }
@@ -284,7 +281,7 @@
 }
 
 .kaufman__triangle {
-  position: absolute; 
+  position: absolute;
   right: -210px;
   top: 0;
   width: 877px;
