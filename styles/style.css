@@ -365,21 +365,31 @@
 
 .footer_column-social {
   margin: 20px 0 16px 0;
-  list-style: none;
   padding: 0;
-  line-height: 25px;
+  list-style: none;
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__social-icon_site_vk::before {
+  content: url('../images/vk_color_white.svg');
   margin-right: 10px;
 }
 
-.footer__social-link {
-  color: #fff;
-  text-decoration: none;
+.footer__social-icon_site_facebook::before {
+  content: url('../images/facebook_color_white.svg');
+  margin-right: 10px;
+}
+
+.footer__social-icon_site_instagram::before {
+  content: url('../images/instagram_color_white.svg');
+  margin-right: 10px;
 }
