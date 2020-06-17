@@ -212,13 +212,10 @@
   width: fit-content;
 }
 
-.feynman__link-block {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
-}
-
-.feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
