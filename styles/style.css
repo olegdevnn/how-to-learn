@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 
@@ -28,7 +28,6 @@
   left: 64px;
   width: 183px;
   height: 32px;
-  background-image: url('../images/logo_place_header.svg');
 }
 
 .header__title {
@@ -60,12 +59,9 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 20;
-}
-
-.header__main-illustration-img {
   width: 765px;
   height: 608px;
+  z-index: 20;
 }
 
 .header__square-pic {
@@ -234,7 +230,7 @@
 /* Kaufman */
 
 .kaufman {
-  background-color: #000;
+  background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
   padding: 90px 0;
@@ -297,7 +293,7 @@
 .footer {
   box-sizing: border-box;
   min-height: 350px;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 0 40px 0;
   display: flex;
@@ -321,7 +317,6 @@
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  background-image: url('../images/logo_place_footer.svg');
   flex-direction: column-reverse;
 }
 
