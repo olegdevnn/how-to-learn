@@ -311,6 +311,9 @@
 
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
   box-sizing: border-box;
   min-height: 350px;
   background-color: #1f1f1f;
@@ -339,7 +342,6 @@
 
 .logo_place_footer {
   height: 35px;
-  flex-direction: column-reverse;
 }
 
 .footer__author {
