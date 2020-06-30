@@ -1,0 +1,6 @@
+@import url(./_content/footer__column_content_copyright.css);
+
+.footer__column {
+  line-height: 30px;
+  font-size: 18px;
+}
