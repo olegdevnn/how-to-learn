@@ -1,10 +1,12 @@
 @import url(./__description/cards__description.css);
 @import url(./__image/cards__image.css);
 @import url(./__item/cards__item.css);
-@import url(./__items/cards__items.css);
 @import url(./__title/cards__title.css);
 
 .cards {
-  max-width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1020px;
   width: 100%;
+  margin: 0 -50px;
 }
